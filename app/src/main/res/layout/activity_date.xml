@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/evaluation_comment_bg_color">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_color">
+        <RelativeLayout
+            android:id="@+id/date_back_rel"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/back_btn_selector">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/back_arrow"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true">
+            <RelativeLayout
+                android:id="@+id/date_left_rel"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/arrow_left"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/date_right_rel"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/arrow_right"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/date_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAY 2015"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    <calendar_view.CalendarView
+        android:id="@+id/date_calendar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </calendar_view.CalendarView>
+    <ListView
+        android:id="@+id/date_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
+    </ListView>
+</LinearLayout>

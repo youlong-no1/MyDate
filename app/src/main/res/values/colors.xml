@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#323b4d</color>
+    <color name="colorPrimaryDark">#323b4d</color>
+    <!-- 公共颜色 -->
+    <color name="title_color">#333333</color>
+    <color name="title_bg_color">#3e445c</color>
+    <color name="bg_color">#f1f1f1</color>
+    <color name="main_bg_color">#333A4D</color>
+    <color name="line_bg_color">#ededf3</color>
+
+    <color name="purple_color">#8f84ff</color>
+    <color name="gray_color">#b5b4c9</color>
+    <color name="orange_color">#fea901</color>
+    <color name="orange_deep_color">#ff7100</color>
+    <color name="gray_light_color">#444444</color>
+    <color name="red_color">#ff3600</color>
+    <color name="head_photo_name_color">#31b86c</color>
+
+
+    <color name="top_layout_bg">#695BFE</color>
+    <color name="msg_selelct_press">#E3E3E3</color>
+    <color name="msg_selelct_normal">#ffffff</color>
+    <color name="set_selector_color">#41fef7</color>
+    <color name="black">#000000</color>
+    <color name="black_30">#b2000000</color>
+    <color name="black_light">#9492b0</color>
+    <color name="black_light_1">#7a798e</color>
+    <color name="white">#ffffff</color>
+    <color name="white_15">#d8ffffff</color>
+    <color name="white_30">#b2ffffff</color>
+    <color name="blue">#7fa8ff</color>
+    <color name="blue_1">#5b67fe</color>
+    <color name="green">#50d2c2</color>
+    <color name="gray">#999999</color>
+    <color name="select_area_title_color">#777777</color>
+    <!-- evaluation -->
+    <color name="evaluation_comment_bg_color">#f5f5f5</color>
+    <color name="evaluation_comment_border_color">#d6d5dd</color>
+
+    <!-- safe_setting -->
+    <color name="safe_setting_text_color">#000000</color>
+    <color name="safe_setting_edit_color">#777777</color>
+    <color name="safe_setting_line_color">#c8c7cc</color>
+    <!-- login -->
+    <color name="login_forget_press">#a7ffffff</color>
+    <color name="login_forget_normal">#ffffff</color>
+    <color name="login_again_forget_normal">#a7a7ac</color>
+    <color name="login_again_forget_press">#a7a7a7ac</color>
+    <!-- forget-->
+    <color name="forget_btn_normal">#8f84ff</color>
+    <color name="forget_btn_press">#736acd</color>
+    <color name="cancle_btn_normal">#ededed</color>
+    <color name="cancle_btn_press">#e1e1e1</color>
+
+    <!-- switch_button-->
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+</resources>
